@@ -8,9 +8,39 @@
   top: 0px;
 }
 
+h1,
+h2 {
+  text-align: center;
+}
+
+#section2 div ul {
+  list-style-type: circle;
+}
+
 .menu ul {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
   width: 100%;
+}
+
+@media (max-width: 1000px) {
+  body {
+    color: green;
+    background-color: lightblue;
+  }
+
+  @media (max-width: 700px) {
+    body {
+      color: black;
+      background-color: grey;
+    }
+  }
+}
+
+@media (hover: hover) {
+  .menu:hover {
+    color: crimson;
+    background-color: darkgreen;
+  }
 }
