@@ -1,11 +1,25 @@
 .menu {
-  background-color: goldenrod;
+  background-color: black;
   height: 30px;
   display: flex;
   align-items: center;
-  position: fixed;
+  position: sticky;
   width: 100%;
   top: 0px;
+}
+
+.menu a {
+  color: white;
+  background-color: black;
+}
+
+.menu a:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+body {
+  background-color: #a2b9bc;
 }
 
 h1,
@@ -40,7 +54,14 @@ h2 {
 
 @media (hover: hover) {
   .menu:hover {
-    color: crimson;
-    background-color: darkgreen;
+    background-color: cadetblue;
   }
+}
+
+#section4 div {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
 }
